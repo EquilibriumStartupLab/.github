@@ -32,7 +32,7 @@ The SteppingStones project is divided into three main repositories, each focusin
 - **Technologies Used:**
   - Express.js (Node.js)
   - MongoDB Atlas for database management
-  - Mongoose for object data modeling (ODM)
+  - Prisma Open source Node.js and TypeScript ORM with a readable data model, automated migrations, type-safety, and auto-completion
   - Passport.js for authentication
   - Jest for testing
 
@@ -49,8 +49,8 @@ The SteppingStones project is divided into three main repositories, each focusin
   - Expo (React Native)
   - React Navigation for navigation management
   - Redux for state management
-  - Firebase Cloud Messaging (FCM) for push notifications
-  - Jest and Detox for testing
+  - Expo push notifications for push notifications
+  - Jest for testing
 
 ## Project Structure
 
@@ -68,6 +68,7 @@ Before you begin, ensure you have the following tools installed:
 - **npm** (v6.x or later)
 - **MongoDB Atlas** account
 - **Expo CLI** (for mobile app development)
+- **Expo EAS** (for a cloud build service used to build and publish the app)
 
 ### Installation
 
@@ -79,7 +80,7 @@ We welcome contributions from the community! Please refer to the `CONTRIBUTING.m
 
 ### License
 
-This project is licensed under the MIT License. See the `LICENSE` file in each repository for more details.
+This project is licensed under the Apache-2.0 License. See the `LICENSE` file in each repository for more details.
 
 ## Contact
 
