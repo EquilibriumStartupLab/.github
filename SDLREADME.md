@@ -83,15 +83,15 @@ A rough estimate of costs associated with the project including development reso
   - **APIs:** RESTful APIs to handle data exchange between the mobile app and web portal.
   - **Database:** SQL/NoSQL database for storing content, user data, and feedback.
   - **Authentication:** OAuth2.0 or JWT for user authentication and authorization.
-  - **Notification Service:** Push notification service using Firebase or a similar platform.
-  - **Cloud Infrastructure:** AWS or Azure for hosting the application.
+  - **Notification Service:** Push notification service using Expo or a similar platform.
+  - **Cloud Infrastructure:** Digital Ocean for hosting the application.
 
 - **Frontend Architecture:**
   - **Web Portal:**
-    - Frameworks: React.js or Angular for the web portal.
+    - Frameworks: React.js (NextJS) for the web portal.
     - Responsive Design: Ensure compatibility across devices (desktop, tablet, mobile).
   - **Mobile Application:**
-    - Frameworks: React Native or Flutter for cross-platform mobile development.
+    - Frameworks: React Native (Expo) for cross-platform mobile development.
     - UI/UX Design: Focus on intuitive design and accessibility features.
 
 **3.2 Data Flow Diagrams:**
@@ -121,13 +121,13 @@ A rough estimate of costs associated with the project including development reso
 #### **4. Implementation**
 
 **4.1 Development Setup:**
-- **Version Control:** GitHub/GitLab for code versioning.
-- **CI/CD Pipeline:** Jenkins or GitHub Actions for continuous integration and deployment.
+- **Version Control:** GitHub for code versioning.
+- **CI/CD Pipeline:** GitHub Actions for continuous integration and deployment.
 - **Development Environment:**
-  - Web Portal: React.js or Angular with Node.js backend.
-  - Mobile App: React Native or Flutter.
-  - Database: PostgreSQL or MongoDB.
-  - Notification System: Firebase Cloud Messaging (FCM).
+  - Web Portal: React.js(NextJS) with Node.js (Express) backend.
+  - Mobile App: React Native using Expo framework.
+  - Database: MongoDB.
+  - Notification System: Expo Notification servers.
 
 **4.2 Module Development:**
 - **User Authentication Module:** Implement OAuth2.0 or JWT for both the web portal and mobile app.
@@ -146,7 +146,7 @@ A rough estimate of costs associated with the project including development reso
 #### **5. Testing**
 
 **5.1 Testing Strategy:**
-- **Unit Testing:** Write unit tests for each module using testing frameworks like Jest for JavaScript and Flutter’s built-in testing tools.
+- **Unit Testing:** Write unit tests for each module using testing frameworks like Jest for JavaScript.
 - **Integration Testing:** Test the interaction between different modules, particularly the communication between the mobile app and web portal via APIs.
 - **User Acceptance Testing (UAT):** Conduct UAT with a select group of SMEs and admins to gather feedback and make necessary adjustments.
 - **Accessibility Testing:** Ensure the application meets WCAG (Web Content Accessibility Guidelines) standards for accessibility.
@@ -159,7 +159,7 @@ A rough estimate of costs associated with the project including development reso
 - **Feedback and Reviews:** Ensure that users can submit feedback and that it is stored and displayed correctly.
 
 **5.3 Bug Tracking:**
-- **Tools:** Use JIRA or Trello for bug tracking and project management.
+- **Tools:** Use Github Projects for bug tracking and project management.
 - **Process:** Implement a process for logging, prioritizing, and addressing bugs discovered during testing.
 
 ---
