@@ -24,6 +24,6 @@ We are always looking for innovators, developers, and partners who share our vis
 ## Contact
 For inquiries, partnerships, or more information, please contact us at:
 - **Website**: [buildwithequilibrium.com](https://www.buildwithequilibrium.com/)
-- **Email**: [enquires](dev@buildwithequilirium.com)
+- **Email**: [enquires](mailto:dev@buildwithequilirium.com)
 - **Social Media**: [LinkedIn | Twitter | Discord] (Coming Soon)
 
